@@ -1,0 +1,18 @@
+2022-08-13_13-31-48 [http-nio-8400-exec-8] ERROR com.pms.auth.config.JwtRequestFilter - JWT Token has expired
+2022-08-13_13-31-48 [http-nio-8400-exec-8] ERROR c.p.a.c.JwtAuthenticationController - Token is Not Valid/Expired
+2022-08-13_13-31-48 [http-nio-8400-exec-9] ERROR com.pms.auth.config.JwtRequestFilter - JWT Token has expired
+2022-08-13_13-31-48 [http-nio-8400-exec-9] ERROR c.p.a.c.JwtAuthenticationController - Token is Not Valid/Expired
+2022-08-13_13-31-48 [http-nio-8400-exec-6] ERROR com.pms.auth.config.JwtRequestFilter - JWT Token has expired
+2022-08-13_13-31-48 [http-nio-8400-exec-6] ERROR c.p.a.c.JwtAuthenticationController - Token is Not Valid/Expired
+2022-08-13_20-04-44 [http-nio-8400-exec-7] ERROR c.p.a.c.JwtAuthenticationController - INVALID_CREDENTIALS
+2022-08-13_20-04-44 [http-nio-8400-exec-7] ERROR c.p.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-08-13_20-28-37 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-13_20-28-37 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-13_20-28-37 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-13_20-28-37 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-13_20-28-37 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-13_20-28-37 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-13_20-28-37 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-13_20-28-37 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-13_20-04-44 [http-nio-8400-exec-5] ERROR c.p.a.c.JwtAuthenticationController - INVALID_CREDENTIALS
+2022-08-13_20-04-44 [http-nio-8400-exec-5] ERROR c.p.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS

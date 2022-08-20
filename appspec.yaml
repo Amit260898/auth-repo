@@ -1,0 +1,10 @@
+version: 1.0
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: "arn:aws:ecs:ap-northeast-2:274201610284:task-definition/serv:1"
+        LoadBalancerInfo:
+          ContainerName: "serv"
+          ContainerPort: "80"
+        PlatformVersion: "LATEST"

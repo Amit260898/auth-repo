@@ -1,0 +1,178 @@
+2022-08-19_00-07-57 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_00-07-57 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_00-07-57 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_00-07-57 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_00-07-57 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_00-07-57 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_00-07-57 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_00-07-57 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_00-10-12 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_00-10-12 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_00-10-12 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_00-10-12 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_00-10-12 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_00-10-12 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_00-10-12 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_00-10-12 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_00-28-50 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_00-28-50 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_00-28-50 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_00-28-50 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_00-28-50 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_00-28-50 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_00-28-50 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_00-28-50 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_00-51-04 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_00-51-04 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_00-51-04 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_00-51-04 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_00-51-04 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_00-51-04 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_01-27-28 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_01-27-28 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_01-27-28 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_01-27-28 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_01-27-28 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_01-27-28 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_01-45-09 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_01-45-09 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_01-45-09 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_01-45-09 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_01-45-09 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_01-45-09 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_01-45-09 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_01-45-09 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_02-10-25 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_02-10-25 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_02-10-25 [main] ERROR c.p.a.e.GlobalExceptionHandler - null
+2022-08-19_02-10-25 [main] ERROR c.p.a.e.GlobalExceptionHandler - null
+2022-08-19_02-10-25 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_02-10-25 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_02-11-47 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_02-11-47 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_02-11-47 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_02-11-47 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_02-11-47 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_02-11-47 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_02-11-47 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_02-11-47 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_02-19-32 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_02-19-32 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_02-19-32 [main] ERROR c.p.a.e.GlobalExceptionHandler - null
+2022-08-19_02-19-32 [main] ERROR c.p.a.e.GlobalExceptionHandler - null
+2022-08-19_02-19-32 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_02-19-32 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_02-19-32 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_02-19-32 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_02-21-45 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_02-21-45 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_02-21-45 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_02-21-45 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_02-21-45 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_02-21-45 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_02-21-45 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_02-21-45 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_02-24-54 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_02-24-54 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_02-24-54 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_02-24-54 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_02-24-54 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_02-24-54 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_02-24-54 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_02-24-54 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_02-34-34 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_02-34-34 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_02-34-34 [main] ERROR c.p.a.e.GlobalExceptionHandler - null
+2022-08-19_02-34-34 [main] ERROR c.p.a.e.GlobalExceptionHandler - null
+2022-08-19_02-34-34 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_02-34-34 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_02-34-34 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_02-34-34 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_02-35-32 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_02-35-32 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_02-35-32 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_02-35-32 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_02-35-32 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_02-35-32 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_02-35-32 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_02-35-32 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_02-40-29 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_02-40-29 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_02-40-29 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_02-40-29 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_02-40-29 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_02-40-29 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_02-40-29 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_02-40-29 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_02-48-01 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_02-48-01 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_02-48-01 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_02-48-01 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_02-48-01 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_02-48-01 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_02-48-01 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_02-48-01 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_13-17-12 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_13-17-12 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_13-17-12 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_13-17-12 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_13-17-12 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_13-17-12 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_14-21-35 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_14-21-35 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_14-21-35 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_14-21-35 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_14-21-35 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_14-21-35 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_21-14-24 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_21-14-24 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_21-14-24 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_21-14-24 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_21-14-24 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_21-14-24 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_21-24-01 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_21-24-01 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_21-24-01 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_21-24-01 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_21-24-01 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_21-24-01 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_21-24-01 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_21-24-01 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_21-28-48 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_21-28-48 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_21-28-48 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_21-28-48 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_21-28-48 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_21-28-48 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_21-28-48 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_21-28-48 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_21-58-06 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_21-58-06 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_21-58-06 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_21-58-06 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_21-58-06 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_21-58-06 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_21-58-06 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_21-58-06 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_22-44-02 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_22-44-02 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_22-44-02 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_22-44-02 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_22-44-02 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_22-44-02 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_23-29-00 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_23-29-00 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_23-29-00 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_23-29-00 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_23-29-00 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_23-29-00 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_23-29-00 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_23-29-00 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_23-41-13 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_23-41-13 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-19_23-41-13 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_23-41-13 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-19_23-41-13 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_23-41-13 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-19_23-41-13 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-19_23-41-13 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]

@@ -1,0 +1,170 @@
+2022-08-18_19-55-36 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter': Unsatisfied dependency expressed through field 'jwtUserDetailsService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myUserDetailsService' defined in file [C:\Users\899324\Desktop\Project\pension-management-system-main\authorization-service\target\classes\com\pms\auth\service\MyUserDetailsService.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.pms.auth.service.MyUserDetailsService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2250359d]
+2022-08-18_19-55-36 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.pms.auth.AuthorizationServiceApplication.main(AuthorizationServiceApplication.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:473)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:206)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtRequestFilter': Unsatisfied dependency expressed through field 'jwtUserDetailsService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myUserDetailsService' defined in file [C:\Users\899324\Desktop\Project\pension-management-system-main\authorization-service\target\classes\com\pms\auth\service\MyUserDetailsService.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.pms.auth.service.MyUserDetailsService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2250359d]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:212)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:175)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:170)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:260)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:234)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5219)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myUserDetailsService' defined in file [C:\Users\899324\Desktop\Project\pension-management-system-main\authorization-service\target\classes\com\pms\auth\service\MyUserDetailsService.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.pms.auth.service.MyUserDetailsService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2250359d]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 60 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.pms.auth.service.MyUserDetailsService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2250359d]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:739)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:671)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.buildPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:407)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:388)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(PersistenceAnnotationBeanPostProcessor.java:335)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	... 69 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/pms/auth/repository/UserRepo
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3220)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2341)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:734)
+	... 75 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.pms.auth.repository.UserRepo
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 79 common frames omitted
+2022-08-18_20-02-45 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-18_20-02-45 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-18_20-02-45 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-18_20-02-45 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-18_20-02-45 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-18_20-02-45 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-18_21-51-38 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-18_21-51-38 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-18_21-51-38 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-18_21-51-38 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-18_21-51-38 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-18_21-51-38 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-18_22-21-16 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-18_22-21-16 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-18_22-21-16 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-18_22-21-16 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-18_22-21-16 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-18_22-21-16 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-18_22-48-23 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-18_22-48-23 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-18_22-48-23 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-18_22-48-23 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-18_22-48-23 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-18_22-48-23 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-18_23-00-12 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-18_23-00-12 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-18_23-00-12 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-18_23-00-12 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-18_23-00-12 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-18_23-00-12 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-18_23-00-12 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-18_23-00-12 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-18_23-04-11 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-18_23-04-11 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-18_23-04-11 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-18_23-04-11 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-18_23-04-11 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-18_23-04-11 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-18_23-04-11 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-18_23-04-11 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-18_23-15-26 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-18_23-15-26 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-18_23-15-26 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-18_23-15-26 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-18_23-15-26 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-18_23-15-26 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-18_23-15-26 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-18_23-15-26 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-18_23-30-00 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-18_23-30-00 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-18_23-30-00 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-18_23-30-00 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-18_23-30-00 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-18_23-30-00 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-18_23-30-00 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-18_23-30-00 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-18_23-55-40 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-18_23-55-40 [main] ERROR c.p.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.pms.auth.model.JwtResponse> com.pms.auth.controller.JwtAuthenticationController.createAuthenticationToken(com.pms.auth.model.JwtRequest) throws com.pms.auth.exception.AuthorizationException
+2022-08-18_23-55-40 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-18_23-55-40 [main] ERROR c.p.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2022-08-18_23-55-40 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-18_23-55-40 [main] ERROR c.p.a.e.GlobalExceptionHandler - message
+2022-08-18_23-55-40 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-08-18_23-55-40 [SpringApplicationShutdownHook] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
